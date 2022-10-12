@@ -6,10 +6,13 @@
 // let count = firstBatch
 // console.log(count)
 
-let myAge = 40;
+// initialize count as 0
+// listent for clicks
+// increment count variable when button is clicked
+// change the count-el in the HTML to reflect new count
 
-let humanDogRatio = 7;
+let count = 0
 
-let myDogAge = myAge * humanDogRatio;
-
-console.log(myDogAge)
+function increment() {
+    count++
+}
